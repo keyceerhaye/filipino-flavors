@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map - Filipino Flavors</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .sitemap-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+        .sitemap-item {
+            padding: 1rem;
+            margin: 1rem 0;
+            background: var(--light-color);
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .sitemap-item h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        .sitemap-item a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sitemap-item a:hover {
+            color: var(--primary-color);
+        }
+        .sitemap-item ul {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+        }
+        .sitemap-item li {
+            margin: 0.3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Filipino Flavors</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero hero-small">
+        <div class="hero-food-collage">
+            <img src="images/adobo.jpg" alt="Adobo" class="hero-food-img">
+            <img src="images/sinigang.jpg" alt="Sinigang" class="hero-food-img">
+            <img src="images/lumpia.jpg" alt="Lumpia" class="hero-food-img">
+            <img src="images/kare-kare.jpg" alt="Kare-Kare" class="hero-food-img">
+            <img src="images/pancit.jpg" alt="Pancit" class="hero-food-img">
+            <img src="images/halo-halo.jpg" alt="Halo-Halo" class="hero-food-img">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Website Sitemap 🗺️</h1>
+            <p>Navigation structure of Filipino Flavors</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="sitemap-container">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary-color);">Complete Site Structure</h2>
+            
+            <div class="sitemap-item">
+                <h3>1. Home Page</h3>
+                <p><a href="index.html">index.html</a></p>
+                <p>Main landing page with featured recipes and hero section</p>
+                <ul>
+                    <li>Links to: Recipes, About, Contact</li>
+                    <li>Features: Featured recipe of the week, recipe grid</li>
+                </ul>
+            </div>
+
+            <div class="sitemap-item">
+                <h3>2. Recipes Page</h3>
+                <p><a href="recipes.html">recipes.html</a></p>
+                <p>Complete listing of all available recipes</p>
+                <ul>
+                    <li>Links to: All recipe detail pages, Home, About, Contact</li>
+                    <li>Features: Recipe cards with images and metadata</li>
+                </ul>
+            </div>
+
+            <div class="sitemap-item">
+                <h3>3. About Page</h3>
+                <p><a href="about.html">about.html</a></p>
+                <p>Information about Filipino Flavors and the creator</p>
+                <ul>
+                    <li>Links to: Contact page, Home, Recipes</li>
+                    <li>Features: Story, mission, what to find on the site</li>
+                </ul>
+            </div>
+
+            <div class="sitemap-item">
+                <h3>4. Contact Page</h3>
+                <p><a href="contact.html">contact.html</a></p>
+                <p>Contact form and contact information</p>
+                <ul>
+                    <li>Links to: Home, Recipes, About</li>
+                    <li>Features: Contact form</li>
+                </ul>
+            </div>
+
+            <div class="sitemap-item">
+                <h3>5. Recipe Detail Pages</h3>
+                <p>Individual recipe pages with full instructions</p>
+                <ul>
+                    <li><a href="recipe-adobo.html">recipe-adobo.html</a> - Chicken Adobo</li>
+                    <li><a href="recipe-sinigang.html">recipe-sinigang.html</a> - Sinigang na Baboy</li>
+                    <li><a href="recipe-lumpia.html">recipe-lumpia.html</a> - Lumpia</li>
+                    <li><a href="recipe-kare-kare.html">recipe-kare-kare.html</a> - Kare-Kare</li>
+                    <li><a href="recipe-pancit.html">recipe-pancit.html</a> - Pancit Bihon</li>
+                    <li><a href="recipe-halo-halo.html">recipe-halo-halo.html</a> - Halo-Halo</li>
+                    <li>All link back to: Recipes page, Home, About, Contact</li>
+                </ul>
+            </div>
+
+            <div style="margin-top: 3rem; padding: 1.5rem; background: var(--gradient-1); color: white; border-radius: 10px; text-align: center;">
+                <h3 style="color: white; margin-bottom: 1rem;">Total Pages: 10 HTML Files</h3>
+                <p>4 Main Pages + 6 Recipe Detail Pages</p>
+                <p style="margin-top: 1rem;">
+                    <a href="index.html" class="btn" style="background: white; color: var(--primary-color);">Back to Home</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Filipino Flavors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Filipino Flavors</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero hero-small">
+        <div class="hero-food-collage">
+            <img src="images/adobo.jpg" alt="Adobo" class="hero-food-img">
+            <img src="images/sinigang.jpg" alt="Sinigang" class="hero-food-img">
+            <img src="images/lumpia.jpg" alt="Lumpia" class="hero-food-img">
+            <img src="images/kare-kare.jpg" alt="Kare-Kare" class="hero-food-img">
+            <img src="images/pancit.jpg" alt="Pancit" class="hero-food-img">
+            <img src="images/halo-halo.jpg" alt="Halo-Halo" class="hero-food-img">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="contact-form">
+            <h2 class="text-center" style="margin-bottom: 2rem; color: var(--primary-color);">Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
+
